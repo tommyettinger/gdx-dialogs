@@ -16,7 +16,6 @@ dependencies {
     implementation "com.badlogicgames.gdx:gdx-backend-robovm:$gdxVersion"
     implementation "com.mobidevelop.robovm:robovm-cocoatouch:$roboVMVersion"
     implementation "com.mobidevelop.robovm:robovm-rt:$roboVMVersion"
-    implementation fileTree(dir: 'libs', include: '*.jar')
 }
 
 ext {

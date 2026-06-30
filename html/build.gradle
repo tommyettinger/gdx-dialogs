@@ -6,7 +6,6 @@ dependencies {
     implementation "com.badlogicgames.gdx:gdx-backend-gwt:$gdxVersion"
     implementation "com.badlogicgames.gdx:gdx:$gdxVersion:sources"
     implementation "com.badlogicgames.gdx:gdx-backend-gwt:$gdxVersion:sources"
-    implementation fileTree(dir: 'libs', include: '*.jar')
 }
 
 ext {

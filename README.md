@@ -12,7 +12,7 @@ libGDX extension providing cross-platform support for native dialogs.
 ## What changed in this fork
 
 ### Build system
-- Gradle wrapper upgraded from **4.2.1 → 9.4.0**
+- Gradle wrapper upgraded from **4.2.1 → 9.6.1**
 - Android Gradle Plugin upgraded from **2.3.0 → 8.9.3**
 - libGDX upgraded from **1.9.6 → 1.14.0**
 - RoboVM upgraded from **2.3.1 → 2.3.23**
