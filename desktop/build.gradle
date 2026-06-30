@@ -32,4 +32,8 @@ ext {
     ARTIFACTID = 'gdx-dialogs-desktop'
 }
 
+tasks.withType(AbstractTestTask).configureEach {
+    failOnNoDiscoveredTests = false
+}
+
 apply from: '../publish.gradle'
