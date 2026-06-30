@@ -36,8 +36,8 @@ allprojects {
 // Apply java-library to all subprojects except android (which has its own plugin)
 configure(subprojects - project(':android')) {
     apply plugin: 'java-library'
-    java.sourceCompatibility = JavaVersion.VERSION_11
-    java.targetCompatibility = JavaVersion.VERSION_11
+    java.sourceCompatibility = JavaVersion.VERSION_1_8
+    java.targetCompatibility = JavaVersion.VERSION_1_8
 }
 
 tasks.eclipse.doLast {
