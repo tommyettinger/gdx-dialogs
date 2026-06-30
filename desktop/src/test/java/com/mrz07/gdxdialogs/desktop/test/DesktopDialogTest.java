@@ -1,26 +1,14 @@
 package com.mrz07.gdxdialogs.desktop.test;
 
-import com.badlogic.gdx.Application;
-import com.badlogic.gdx.ApplicationLogger;
-import com.badlogic.gdx.Audio;
-import com.badlogic.gdx.Files;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Graphics;
-import com.badlogic.gdx.Input;
-import com.badlogic.gdx.LifecycleListener;
-import com.badlogic.gdx.Net;
-import com.badlogic.gdx.Preferences;
+import com.badlogic.gdx.*;
 import com.badlogic.gdx.utils.Clipboard;
-
 import com.mrz07.gdxdialogs.core.dialogs.GDXButtonDialog;
 import com.mrz07.gdxdialogs.core.dialogs.GDXProgressDialog;
 import com.mrz07.gdxdialogs.core.dialogs.GDXTextPrompt;
 import com.mrz07.gdxdialogs.core.listener.ButtonClickListener;
-import com.mrz07.gdxdialogs.core.listener.TextPromptListener;
 import com.mrz07.gdxdialogs.desktop.DesktopGDXDialogs;
 
-import javax.swing.JOptionPane;
-import javax.swing.SwingUtilities;
+import javax.swing.*;
 
 public class DesktopDialogTest {
 

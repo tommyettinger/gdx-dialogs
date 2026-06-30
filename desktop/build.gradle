@@ -1,5 +1,5 @@
 eclipse.project.name = appName + '-desktop'
-sourceSets.main.java.srcDirs = ['src/']
+sourceSets.main.java.srcDirs = ['src/main/java/']
 
 configurations {
     consumer
@@ -20,13 +20,12 @@ processResources.dependsOn copyProguardRules
 
 dependencies {
     implementation project(':core')
-    implementation fileTree(dir: 'libs', include: '*.jar')
 }
 
-task runTest(type: JavaExec) {
-    dependsOn classes
+tasks.register('runTest', JavaExec) {
+    dependsOn testClasses
     mainClass = 'com.mrz07.gdxdialogs.desktop.test.DesktopDialogTest'
-    classpath = sourceSets.main.runtimeClasspath
+    classpath = sourceSets.test.runtimeClasspath
 }
 
 ext {
